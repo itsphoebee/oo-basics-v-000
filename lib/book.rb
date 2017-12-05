@@ -8,4 +8,9 @@ class Book
   end
 
   attr_accessor :author, :page_count, :genre
+
+  def turn_page
+    puts "Fliiping the page...wow, you read fast!"
+  end
+
 end
